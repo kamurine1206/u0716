@@ -5,7 +5,7 @@ using UnityEngine;
 public class Hennsuu : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    public void Proc()
     {
         int a = 10;
         float fw = 3.14f;
@@ -18,6 +18,10 @@ public class Hennsuu : MonoBehaviour
         Debug.Log(bl);
     }
 
+    public void Proc2()
+    {
+        Debug.Log(a);
+    }
     // Update is called once per frame
     void Update()
     {
